@@ -9,7 +9,7 @@ import { useContext } from "react";
 import { QuizContext } from "../context/quiz";
 
 const MainScreen = () => {
-  const quizState = useContext(QuizContext);
+    const [quizState, dispatch] = useContext(QuizContext);
 
   console.log(quizState);
 
@@ -18,7 +18,7 @@ const MainScreen = () => {
       <h2 className="title">Seja bem-vindo</h2>
       <p>Clique no botão abaixo para começar</p>
       <div id="start">
-        <button>Iniciar</button>
+        <button onClick={() => dispatch({type: "CHANGE_STATE"})}>Iniciar</button>
       </div>
       <img src={img} alt="Começar o jogo" />
     </div>
