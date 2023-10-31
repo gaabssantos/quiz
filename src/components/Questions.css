@@ -10,7 +10,7 @@
   padding: 20px 0;
 }
 
-#help-questions {
+#help-questions, #continue {
   display: flex;
   justify-content: center;
   padding: 30px 0;
@@ -48,4 +48,17 @@ ul#options {
 
 .correct {
   background-color: #17E817 !important;
+}
+
+.incorrect {
+  background-color: #eb5151 !important;
+}
+
+.desactived {
+  opacity: .8;
+  cursor: no-drop !important;
+}
+
+.hide {
+  display: none !important;
 }
