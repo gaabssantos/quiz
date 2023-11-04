@@ -1,9 +1,12 @@
+// Imports
 import { useContext } from "react";
 import { QuizContext } from "../context/quiz";
 
-import "./Welcome.css";
-
+// Assets
 import Quiz from "../img/quiz.svg";
+
+// CSS
+import "./Welcome.css";
 
 const Welcome = () => {
   const [quizState, dispatch] = useContext(QuizContext);

@@ -1,12 +1,16 @@
+// Imports
 import { useContext, useEffect } from "react";
 import { QuizContext } from "./context/quiz";
 
+// Components
 import Welcome from "./components/Welcome";
 import Question from "./components/Question";
 import GameOver from "./components/GameOver";
 
+// Assets
 import PickCategory from "./components/PickCategory";
 
+// CSS
 import "./App.css";
 
 function App() {

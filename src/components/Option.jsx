@@ -1,7 +1,8 @@
+// Imports
 import { useContext } from "react";
-
 import { QuizContext } from "../context/quiz";
 
+// CSS
 import "./Option.css";
 
 const Option = ({ option, selectOption, answer, hide }) => {

@@ -1,9 +1,11 @@
+// Imports
 import { useContext } from "react";
-
 import { QuizContext } from "../context/quiz";
 
+// Assets
 import Category from "../img/category.svg";
 
+// CSS
 import "./PickCategory.css";
 
 const PickCategory = () => {

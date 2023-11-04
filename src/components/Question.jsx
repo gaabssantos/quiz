@@ -1,9 +1,11 @@
+// Imports
 import { useContext, useState } from "react";
-
 import { QuizContext } from "../context/quiz";
 
+// Components
 import Option from "./Option";
 
+// CSS
 import "./Question.css";
 
 const Question = () => {

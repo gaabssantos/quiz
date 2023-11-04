@@ -1,9 +1,11 @@
+// Imports
 import { useContext } from "react";
-
 import { QuizContext } from "../context/quiz";
 
+// Assets
 import WellDone from "../img/welldone.svg";
 
+// CSS
 import "./GameOver.css";
 
 const GameOver = () => {
